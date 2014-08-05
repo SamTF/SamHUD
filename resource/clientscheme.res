@@ -2401,6 +2401,128 @@ Scheme
 	//
 	///////////// Me fonts I use
 	//
+		SF68
+		{
+			"1"
+			{
+				"name"		"SF Movie Poster Bold"
+				"tall"		"68"
+				"antialias" "1"
+			}
+		}
+		SF72
+		{
+			"1"
+			{
+				"name"		"SF Movie Poster Bold"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		SF42
+		{
+			"1"
+			{
+				"name"		"SF Movie Poster Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		SF36
+		{
+			"1"
+			{
+				"name"		"SF Movie Poster Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		bat32
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		bat36
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		bat42
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		bat68
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"68"
+				"antialias" "1"
+			}
+		}
+		
+		bat72
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		bat80
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"80"
+				"antialias" "1"
+			}
+		}
+		bat36
+		{
+			"1"
+			{
+				"name"		"BatmanForeverAlternate"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		csgo42
+		{
+			"1"
+			{
+				"name"		"Counter-Strike Regular"
+				"tall"		"68"
+				"antialias" "1"
+			}
+		}
+
+		
+		SF80
+		{
+			"1"
+			{
+				"name"		"SF Movie Poster Bold"
+				"tall"		"80"
+				"antialias" "1"
+			}
+		}
 		Arial80
 		{
 			"1"
@@ -2531,16 +2653,51 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		AmazDooMLeft42
+		AmazDooMLeft32
 		{
 			"1"
 			{
 				"name"		"AmazDooMLeft"
-				"tall"		"42"
+				"tall"		"32"
 				"antialias" "1"
 			}
 		}
-
+		AmazDooMLeft28
+		{
+			"1"
+			{
+				"name"		"AmazDooMLeft"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		AmazDooMLeft24
+		{
+			"1"
+			{
+				"name"		"AmazDooMLeft"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		AmazDooMLeft20
+		{
+			"1"
+			{
+				"name"		"AmazDooMLeft"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		AmazDooMLeft16
+		{
+			"1"
+			{
+				"name"		"AmazDooMLeft"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
 		AmazDooMRight80
 		{
 			"1"
@@ -2602,7 +2759,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AmazDooMOutline"
+				"name"		"AmazDooMRightOutline"
 				"tall"		"80"
 				"antialias" "1"
 			}
@@ -4590,10 +4747,21 @@ Scheme
 			"font" "resource/fonts/cour.ttf"
 			"name" "Courier New"
 	}
-		"11" // xhair
+		"11" // sf movie poster bold
 		{
-			"font" "resource/fonts/arial.ttf"
-			"name" "Courier New"
+			"font" "resource/fonts/SF Movie Poster Bold.ttf"
+			"name" "SF Movie Poster Bold"
+	}
+		"12" // cs go
+		{
+			"font" "resource/fonts/cs_regular_0.ttf"
+			"name" "Counter-Strike Regular"
+	}
+		"13" // buttman 4ever
+		{
+			"font" "resource/fonts/batmfa_.ttf"
+			"name" "BatmanForeverAlternate"
+	}		
 
 
 }
