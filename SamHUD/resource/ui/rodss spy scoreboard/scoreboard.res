@@ -546,11 +546,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"75"	[$WIN32]
+		"xpos"			"110"
+		"ypos"			"372"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"600"
-		"tall"			"280"
+		"wide"			"500"
+		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -598,8 +598,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		if_mvm
 		{
@@ -628,10 +628,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"15"
-		"ypos"			"441"	[$WIN32]
+		"xpos"			"115"
+		"ypos"			"397"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"600"
+		"wide"			"465"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -885,11 +885,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"800"
-		"tall"			"1000"
-		"autoResize"	"200"
+		"tall"			"600"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -938,11 +938,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"AmazDooMLeft16"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
-			"textAlignment"		"west"
-			"xpos"			"115"
-			"ypos"			"378"	[$WIN32]
+			"textAlignment"		"east"
+			"xpos"			"80"
+			"ypos"			"40"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -955,11 +955,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"AmazDooMLeft16"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"120"
-			"ypos"			"377"	[$WIN32]
+			"xpos"			"80"
+			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -976,7 +976,7 @@
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"15"
-			"ypos"			"341"	[$WIN32]
+			"ypos"			"-33"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"150"
@@ -993,7 +993,7 @@
 			"labelText"		":"
 			"textAlignment"		"west"
 			"xpos"			"59"
-			"ypos"			"341"	[$WIN32]
+			"ypos"			"-28"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"150"
@@ -1010,7 +1010,7 @@
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"70"
-			"ypos"			"341"	[$WIN32]
+			"ypos"			"-33"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"150"
@@ -1042,48 +1042,31 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"AmazDooMRight56"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"125"
-			"ypos"			"370"	[$WIN32]
+			"xpos"			"180"
+			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
-			"tall"			"100"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}
-//		"AssistsLabel"
-//		{
-//			"ControlName"		"CExLabel"
-//			"fieldName"		"AssistsLabel"
-//			"font"			"AmazDooMLeft16"
-//			"labelText"		"TF_ScoreBoard_AssistsLabel"
-//			"textAlignment"		"west"
-//			"xpos"			"620"
-//			"ypos"			"-50"	[$WIN32]
-//			"zpos"			"3"
-//			"wide"			"35"
-//			"tall"			"100"
-//			"autoResize"	"0"
-//			"pinCorner"		"0"
-//			"visible"		"1"
-//			"enabled"		"1"
-//		}		
+		}						
 		"Destruction"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"AmazDooMRight56"
+			"font"			"ScoreboardVerySmall"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"180"
-			"ypos"			"370"	[$WIN32]
+			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
-			"tall"			"100"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1369,7 +1352,7 @@
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"570"	[$WIN32]
-			"ypos"			"378"	[$WIN32]
+			"ypos"			"5"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1386,7 +1369,7 @@
 			"labelText"		"%backstabs%"
 //			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"642"	[$WIN32]
-			"ypos"			"370"	[$WIN32]
+			"ypos"			"-4"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"100"
@@ -1694,14 +1677,14 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
-	"Team Indicator"
+		"Team Indicator"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"Team Indicator"
 		"xpos"			"15"
-		"ypos"			"370"
+		"ypos"			"375"
 		"zpos"			"2"
-		"wide"			"300"
+		"wide"			"90"
 		"tall"	 		"4"
 		"autoResize"	"0"
 		"pinCorner"		"1"
@@ -1757,32 +1740,4 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}	
-	"AssistsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AssistsBG"
-		"xpos"			"110"
-		"ypos"			"375"		"zpos"			"4"
-		"wide"			"50"
-		"tall"			"65"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-	}
-	"DestructionsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DestructionsBG"
-		"xpos"			"165"
-		"ypos"			"375"		"zpos"			"4"
-		"wide"			"50"
-		"tall"			"65"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-	}
 }
